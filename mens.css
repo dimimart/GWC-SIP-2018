@@ -1,0 +1,145 @@
+/*beginning of main menu*/
+ /* Add a black background color to the top navigation */
+#topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.logoleft { 
+  width: 40px;
+  height: 24px;
+  float: left;
+  height: 35px;
+  width: 140px;
+
+}
+.iconright {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 12px 18px;
+    font-size: 23px;
+    cursor: pointer;
+    float: right;
+    padding-top: 20px;
+}
+
+/* Darker background on mouse-over */
+.iconright:hover {
+    background-color: white;
+    color: #51A276;
+}
+/* Style the links inside the navigation bar */
+#topnav a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Change the color of links on hover */
+#topnav a:hover {
+    background-color: #ffffff;
+    color: #51A276
+      ;
+}
+
+/* Add an active class to highlight the current page */
+#topnav a.active {
+    background-color: #ffffff;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+#topnav .icon {
+    display: none;
+}
+/*end of main menu*/
+
+/*beginning of portfoilio thing*/
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+    font-family: 'Raleway', sans-serif;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 18px 20px;
+  background-color: white;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+/* Add a green background color on mouse-over */
+.btn:hover {
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  /*change this color soon*/
+  color: black;
+  color: #737373;
+  font-family: 'Raleway', sans-serif;
+}
+/*end of portfolio thing*/
